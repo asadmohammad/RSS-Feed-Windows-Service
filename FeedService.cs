@@ -45,14 +45,7 @@ namespace k163825_Q4
 
             nation_feed.AddRange(samaa_feed);
             nation_feed.Sort((news1, news2) => news1.PublishedDate.CompareTo(news2.PublishedDate));
-            
-                
             xmlSerializer.Serialize(file, nation_feed);
-            
-            
-
-            
-            
         }
         
 
